@@ -25,7 +25,10 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+<<<<<<< HEAD
             animator.SetBool("IsJumping", true);
+=======
+>>>>>>> origin/main
 
         }
         if(Input.GetButtonDown("Crouch"))
